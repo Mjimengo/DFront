@@ -1,0 +1,65 @@
+<!-- Bloque 1
+1.- Crea una estructura básica HTML
+2.- Dentro de la estructura anterior, utilizando etiquetas semánticas, crea una estrutura con cabecera, menú de navegación, Barra lateral, 3 artículos y pie de página.
+3.- Crea un archivo css y rellena cada elemento de un color diferente y con una separación de 20px entre cada una de ellas
+-->
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="descripcion" content="Web de ejemplo">
+ <meta name="keywords" content="HTML, CSS">
+ <meta name="author" content="María Jiménez">
+ <link rel="stylesheet" href="estilos.css"/>
+ <title> Web de ejemplo </title>
+ </head>
+
+  <body>
+
+  <div id="contenedor">
+  <header>
+  <nav>
+  <ul class="menuItems">
+    <li><a href='#' data-item='Home'>Inicio</a></li>
+    <li><a href='#' data-item='About'>Sobre nosotros</a></li>
+    <li><a href='#' data-item='About'>Nuestros servicios</a></li>
+    <li><a href='#' data-item='About'>Contacto</a></li>
+     </ul>
+</nav>
+</header>
+
+<main>
+<section id = "contenido">
+<article id= "articulo1">
+<h4>Artículo 1</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum, metus eu lobortis egestas, purus nunc iaculis ipsum, ac finibus nunc tortor sed eros. </p>
+</article>
+
+<article id= "articulo2">
+<h4>Artículo 2</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum, metus eu lobortis egestas, purus nunc iaculis ipsum, ac finibus nunc tortor sed eros.</p>
+</article>
+
+<article id= "articulo3">
+<h4>Artículo 3</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum, metus eu lobortis egestas, purus nunc iaculis ipsum, ac finibus nunc tortor sed eros.</p>
+</article>
+</section>
+
+<aside id ="barraLateral">
+<aside>
+<h3>Barra lateral</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum, metus eu lobortis egestas, purus nunc iaculis ipsum, ac finibus nunc tortor sed eros.</p>
+</aside>
+</main>
+
+
+<footer id = "footer">
+<p>Pie de página</p>
+</footer>
+  </div>
+  
+  </body>
+
+
+</html>
